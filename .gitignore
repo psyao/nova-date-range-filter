@@ -10,3 +10,4 @@ package-lock.json
 phpunit.xml
 Thumbs.db
 yarn.lock
+yarn-*.log
