@@ -1,5 +1,5 @@
 {
-    "name": "idezdigital/nova-date-range-filter",
+    "name": "idez/nova-date-range-filter",
     "description": "A Laravel Nova date range filter.",
     "keywords": [
         "laravel",
