@@ -1,11 +1,12 @@
 # Laravel Nova Date Range Filter
 
-![Packagist](https://img.shields.io/packagist/l/pos-lifestyle/laravel-nova-date-range-filter)
-![Packagist Version](https://img.shields.io/packagist/v/pos-lifestyle/laravel-nova-date-range-filter)
+[![License](https://poser.pugx.org/itsmejoshua/novaspatiepermissions/license)](https://packagist.org/packages/insenseanalytics/laravel-nova-permission)
+[![Latest Stable Version](https://poser.pugx.org/idez/nova-date-range-filter/v/stable)](https://packagist.org/packages/idez/nova-date-range-filter)
+[![Total Downloads](https://poser.pugx.org/idez/nova-date-range-filter/downloads)](https://packagist.org/packages/idez/nova-date-range-filter)
 
 ## About
 
-This is a configurable and ready to use filter for Laravel Nova 2 based on Nova's own date filter that displays a
+This is a configurable and ready to use filter for Laravel Nova 4 based on Nova's own date filter that displays a
 date range picker.
 
 ## Installation
@@ -13,7 +14,7 @@ date range picker.
 To install the filter run the following command in your Laravel Nova project:
 
 ```bash
-composer require pos-lifestyle/laravel-nova-date-range-filter
+composer require idez/nova-date-range-filter
 ```
 
 ## Usage
@@ -22,7 +23,7 @@ Simply add this filter to the `filters` method in your Nova resource.
 
 ```php
 use Illuminate\Http\Request;
-use PosLifestyle\DateRangeFilter\DateRangeFilter;
+use Idez\DateRangeFilter\DateRangeFilter;
 
 class CustomResource extends Resource
 {
@@ -188,8 +189,8 @@ All available settings are provided by the included `Config` enum. See the full 
 
 ```php
 use Illuminate\Http\Request;
-use PosLifestyle\DateRangeFilter\DateRangeFilter;
-use PosLifestyle\DateRangeFilter\Enums\Config;
+use Idez\DateRangeFilter\DateRangeFilter;
+use Idez\DateRangeFilter\Enums\Config;
 
 class CustomResource extends Resource
 {
@@ -230,3 +231,12 @@ class CustomResource extends Resource
         <td><img src="docs/assets/img/date-range-filter-2-months.png" alt="Date range filter (2 months)"></td>
     </tr>
 </table>
+
+## Contributing
+
+Contributions are welcome, explain the issue/feature that you want to solve/add and back your code up with tests. Happy coding!
+
+## License
+
+This package was originally developed by https://github.com/pos-lifestyle/laravel-nova-date-range-filter however they have abandoned the package.
+The MIT License (MIT). Please see [License File](LICENSE) for more information.

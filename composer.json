@@ -1,24 +1,25 @@
 {
-    "name": "pos-lifestyle/laravel-nova-date-range-filter",
+    "name": "idezdigital/nova-date-range-filter",
     "description": "A Laravel Nova date range filter.",
     "keywords": [
         "laravel",
         "nova",
         "date",
         "range",
-        "filter"
+        "filter",
+        "idez"
     ],
     "license": "MIT",
     "authors": [
         {
-            "name": "Jan Hähne",
-            "email": "jan.haehne@pos-lifestyle.de",
-            "homepage": "https://github.com/jhae-de",
+            "name": "Rafael Laurindo",
+            "email": "rafael@idez.com.br",
+            "homepage": "https://idez.com.br",
             "role": "Developer"
         }
     ],
     "support": {
-        "issues": "https://github.com/pos-lifestyle/laravel-nova-date-range-filter/issues"
+        "issues": "https://github.com/idezdigital/nova-date-range-filter/issues"
     },
     "repositories": [
         {
@@ -31,18 +32,15 @@
         "laravel/framework": "^8.0 || ^9.0",
         "laravel/nova": "^4.0"
     },
-    "require-dev": {
-        "roave/security-advisories": "dev-master"
-    },
     "autoload": {
         "psr-4": {
-            "PosLifestyle\\DateRangeFilter\\": "src/"
+            "Idez\\DateRangeFilter\\": "src/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "PosLifestyle\\DateRangeFilter\\FilterServiceProvider"
+                "Idez\\DateRangeFilter\\FilterServiceProvider"
             ]
         }
     },

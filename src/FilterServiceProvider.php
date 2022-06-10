@@ -1,6 +1,6 @@
 <?php
 
-namespace PosLifestyle\DateRangeFilter;
+namespace Idez\DateRangeFilter;
 
 use Illuminate\Support\ServiceProvider;
 use Laravel\Nova\Events\ServingNova;

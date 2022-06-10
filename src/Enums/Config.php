@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace PosLifestyle\DateRangeFilter\Enums;
+namespace Idez\DateRangeFilter\Enums;
 
 class Config
 {
