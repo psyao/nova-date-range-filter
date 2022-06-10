@@ -17,12 +17,12 @@ class DateRangeFilter extends Filter
      * @var string
      */
     public $component = 'date-range-filter';
-    
-    public function __construct( public $name = 'Created at', public string $column = Model::CREATED_AT, public array $config = [])
+
+    public function __construct(public $name = 'Created at', public string $column = Model::CREATED_AT, public array $config = [])
     {
         $this->configure();
     }
-    
+
     /**
      * Apply the filter to the given query.
      *
@@ -40,7 +40,7 @@ class DateRangeFilter extends Filter
                 Carbon::createFromFormat('Y-m-d', $value[1])->endOfDay(),
             ]
         );
-        
+
         return $query;
     }
 
@@ -51,7 +51,7 @@ class DateRangeFilter extends Filter
         }
 
         foreach ($this->config as $property => $value) {
-            if (!in_array($property, Config::getProperties(), true)) {
+            if (! in_array($property, Config::getProperties(), true)) {
                 throw new InvalidArgumentException('Invalid property: ' . $property);
             }
 
