@@ -1,6 +1,6 @@
 # Laravel Nova Date Range Filter
 
-[![License](https://poser.pugx.org/itsmejoshua/novaspatiepermissions/license)](https://packagist.org/packages/insenseanalytics/laravel-nova-permission)
+[![License](https://poser.pugx.org/idez/nova-date-range-filter/license)](https://packagist.org/packages/idez/nova-date-range-filter)
 [![Latest Stable Version](https://poser.pugx.org/idez/nova-date-range-filter/v/stable)](https://packagist.org/packages/idez/nova-date-range-filter)
 [![Total Downloads](https://poser.pugx.org/idez/nova-date-range-filter/downloads)](https://packagist.org/packages/idez/nova-date-range-filter)
 
